@@ -4,6 +4,10 @@ const morgan = require('morgan');
 const connectDB = require('./config/db');
 const quizRoutes = require('./routes/quizRoutes');
 require('dotenv').config();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7addb2d852acf2c2d6a2ceb1633b845588980f92
 const app = express();
 
 // Middleware
